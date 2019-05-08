@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044043FE0B43809D43DAE20D /* Pods_HoursCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31B6661BD523B4E0061B8F5 /* Pods_HoursCheck.framework */; };
+		3691531D220F7DB2004DCE4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3691531C220F7DB2004DCE4C /* AppDelegate.swift */; };
+		3691531F220F7DB2004DCE4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3691531E220F7DB2004DCE4C /* ViewController.swift */; };
+		36915322220F7DB2004DCE4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36915320220F7DB2004DCE4C /* Main.storyboard */; };
+		36915324220F7DB4004DCE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36915323220F7DB4004DCE4C /* Assets.xcassets */; };
+		36915327220F7DB4004DCE4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36915325220F7DB4004DCE4C /* LaunchScreen.storyboard */; };
+		36BBA04122185EAA003B7523 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BBA04022185EAA003B7523 /* CustomButton.swift */; };
+		36C6D579223ED5EA00EC81A8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36C6D578223ED5EA00EC81A8 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36915319220F7DB2004DCE4C /* HoursCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoursCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3691531C220F7DB2004DCE4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3691531E220F7DB2004DCE4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36915321220F7DB2004DCE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36915323220F7DB4004DCE4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36915326220F7DB4004DCE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36915328220F7DB4004DCE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = HoursCheck/SupportFiles/Info.plist; sourceTree = SOURCE_ROOT; };
+		36BBA04022185EAA003B7523 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		36C6D578223ED5EA00EC81A8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E60EB679B7706164424EF33 /* Pods-HoursCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoursCheck.release.xcconfig"; path = "Pods/Target Support Files/Pods-HoursCheck/Pods-HoursCheck.release.xcconfig"; sourceTree = "<group>"; };
+		A31B6661BD523B4E0061B8F5 /* Pods_HoursCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HoursCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB16FE8A9F39263C837B427F /* Pods-HoursCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HoursCheck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HoursCheck/Pods-HoursCheck.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36915316220F7DB2004DCE4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044043FE0B43809D43DAE20D /* Pods_HoursCheck.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36915310220F7DB2004DCE4C = {
+			isa = PBXGroup;
+			children = (
+				3691531B220F7DB2004DCE4C /* HoursCheck */,
+				3691531A220F7DB2004DCE4C /* Products */,
+				6BB2BC73D1F955837AE411D3 /* Pods */,
+				8CDC52AE4BC060797A137F87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3691531A220F7DB2004DCE4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36915319220F7DB2004DCE4C /* HoursCheck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3691531B220F7DB2004DCE4C /* HoursCheck */ = {
+			isa = PBXGroup;
+			children = (
+				36BBA04322185FE2003B7523 /* SupportFiles */,
+				36BBA03F22185CDC003B7523 /* Model */,
+				36BBA03E22185CD7003B7523 /* View */,
+				36BBA03D22185CCD003B7523 /* Controller */,
+				36BBA04222185FD4003B7523 /* Storyboards */,
+			);
+			path = HoursCheck;
+			sourceTree = "<group>";
+		};
+		36BBA03D22185CCD003B7523 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3691531E220F7DB2004DCE4C /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		36BBA03E22185CD7003B7523 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36915323220F7DB4004DCE4C /* Assets.xcassets */,
+				36BBA04022185EAA003B7523 /* CustomButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		36BBA03F22185CDC003B7523 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36BBA04222185FD4003B7523 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				36915320220F7DB2004DCE4C /* Main.storyboard */,
+				36915325220F7DB4004DCE4C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		36BBA04322185FE2003B7523 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				36915328220F7DB4004DCE4C /* Info.plist */,
+				3691531C220F7DB2004DCE4C /* AppDelegate.swift */,
+				36C6D578223ED5EA00EC81A8 /* GoogleService-Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		6BB2BC73D1F955837AE411D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB16FE8A9F39263C837B427F /* Pods-HoursCheck.debug.xcconfig */,
+				5E60EB679B7706164424EF33 /* Pods-HoursCheck.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CDC52AE4BC060797A137F87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A31B6661BD523B4E0061B8F5 /* Pods_HoursCheck.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36915318220F7DB2004DCE4C /* HoursCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36915341220F7DB4004DCE4C /* Build configuration list for PBXNativeTarget "HoursCheck" */;
+			buildPhases = (
+				08F5034400C445A8D21FA1A0 /* [CP] Check Pods Manifest.lock */,
+				36915315220F7DB2004DCE4C /* Sources */,
+				36915316220F7DB2004DCE4C /* Frameworks */,
+				36915317220F7DB2004DCE4C /* Resources */,
+				0BE786A1524EB2B31A147401 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoursCheck;
+			productName = HoursCheck;
+			productReference = 36915319220F7DB2004DCE4C /* HoursCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36915311220F7DB2004DCE4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Lily ";
+				TargetAttributes = {
+					36915318220F7DB2004DCE4C = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 36915314220F7DB2004DCE4C /* Build configuration list for PBXProject "HoursCheck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36915310220F7DB2004DCE4C;
+			productRefGroup = 3691531A220F7DB2004DCE4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36915318220F7DB2004DCE4C /* HoursCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36915317220F7DB2004DCE4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36915327220F7DB4004DCE4C /* LaunchScreen.storyboard in Resources */,
+				36C6D579223ED5EA00EC81A8 /* GoogleService-Info.plist in Resources */,
+				36915324220F7DB4004DCE4C /* Assets.xcassets in Resources */,
+				36915322220F7DB2004DCE4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F5034400C445A8D21FA1A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HoursCheck-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BE786A1524EB2B31A147401 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HoursCheck/Pods-HoursCheck-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HoursCheck/Pods-HoursCheck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36915315220F7DB2004DCE4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3691531F220F7DB2004DCE4C /* ViewController.swift in Sources */,
+				3691531D220F7DB2004DCE4C /* AppDelegate.swift in Sources */,
+				36BBA04122185EAA003B7523 /* CustomButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36915320220F7DB2004DCE4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36915321220F7DB2004DCE4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36915325220F7DB4004DCE4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36915326220F7DB4004DCE4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3691533F220F7DB4004DCE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36915340220F7DB4004DCE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36915342220F7DB4004DCE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB16FE8A9F39263C837B427F /* Pods-HoursCheck.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8626JTCU6Y;
+				INFOPLIST_FILE = HoursCheck/SupportFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lily.HoursCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36915343220F7DB4004DCE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E60EB679B7706164424EF33 /* Pods-HoursCheck.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8626JTCU6Y;
+				INFOPLIST_FILE = HoursCheck/SupportFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lily.HoursCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36915314220F7DB2004DCE4C /* Build configuration list for PBXProject "HoursCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3691533F220F7DB4004DCE4C /* Debug */,
+				36915340220F7DB4004DCE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36915341220F7DB4004DCE4C /* Build configuration list for PBXNativeTarget "HoursCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36915342220F7DB4004DCE4C /* Debug */,
+				36915343220F7DB4004DCE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36915311220F7DB2004DCE4C /* Project object */;
+}

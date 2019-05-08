@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HoursCheck" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Backgorund" translatesAutoresizingMaskIntoConstraints="NO" id="CP0-dd-f0d">
+                                <rect key="frame" x="60" y="70" width="255" height="228.5"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="LKG-5f-hh8">
+                                <rect key="frame" x="85.5" y="368.5" width="204" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdC-9p-ly6" customClass="CustomButton" customModule="HoursCheck" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="68" height="30"/>
+                                        <state key="normal" title="Start time"/>
+                                        <connections>
+                                            <action selector="startButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZYU-91-CFQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bir-x0-Wdl" customClass="CustomButton" customModule="HoursCheck" customModuleProvider="target">
+                                        <rect key="frame" x="143" y="0.0" width="61" height="30"/>
+                                        <state key="normal" title="End time"/>
+                                        <connections>
+                                            <action selector="endButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dog-Or-O0e"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name " textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oAD-0u-FZ0">
+                                <rect key="frame" x="60" y="318.5" width="255" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LKG-5f-hh8" firstAttribute="centerX" secondItem="oAD-0u-FZ0" secondAttribute="centerX" id="5dj-cG-zOO"/>
+                            <constraint firstItem="CP0-dd-f0d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="6yY-Ef-77z"/>
+                            <constraint firstItem="oAD-0u-FZ0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="BjC-6s-LN5"/>
+                            <constraint firstItem="oAD-0u-FZ0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lko-ZY-lcw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CP0-dd-f0d" secondAttribute="trailing" constant="60" id="nEx-Mn-Dob"/>
+                            <constraint firstItem="oAD-0u-FZ0" firstAttribute="top" secondItem="CP0-dd-f0d" secondAttribute="bottom" constant="20" id="nuB-Hl-4EQ"/>
+                            <constraint firstItem="LKG-5f-hh8" firstAttribute="top" secondItem="oAD-0u-FZ0" secondAttribute="bottom" constant="20" id="rVY-bD-X43"/>
+                            <constraint firstItem="CP0-dd-f0d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="sAw-wg-bTp"/>
+                            <constraint firstItem="oAD-0u-FZ0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vS4-75-ggL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="nameTextfield" destination="oAD-0u-FZ0" id="4II-8a-uRi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Backgorund" width="300" height="300"/>
+    </resources>
+</document>
