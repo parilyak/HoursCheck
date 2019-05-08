@@ -54,7 +54,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         currDateFormated.dateFormat = "HH:mm:ss"
         let currDate = currDateFormated.string(from: date)
 
-        //push
+        
         let format = DateFormatter()
         format.dateFormat = "dd-MM-yyyy"
         let formattedDate = format.string(from: date)
